@@ -1,0 +1,63 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.3);
+  transition: 1.2s ease-in;
+}
+
+.modal-content {
+  width: 700px;
+  background: white;
+  margin: 50px auto;
+  padding: 20px 50px;
+  position: relative;
+  border-radius: 10px;
+}
+
+button.close-btn {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+  background: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form-group {
+    height: 50px;
+}
+
+.form-group label, .display-image {
+    width: 150px;
+    display: inline-block;
+}
+
+.display-image {
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    height: 30px;
+    padding: 0 20px;
+    width: calc(100% - 200px);
+}
+
+input[type="checkbox"] {
+  width: 30px;
+  margin: 0;
+}
+
+input[type="button"], .btn-submit {
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+}
